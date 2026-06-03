@@ -52,7 +52,7 @@ def main() -> None:
 
     model.eval()
 
-    dummy_input = torch.randn(1, 3, args.img_size, args.img_size)
+    dummy_input = torch.randn(4, 3, args.img_size, args.img_size)
     onnx_path = Path(args.onnx_path)
     onnx_path.parent.mkdir(parents=True, exist_ok=True)
 

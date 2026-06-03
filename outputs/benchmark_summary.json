@@ -1,0 +1,67 @@
+{
+  "checkpoint": "checkpoints/best_model.pt",
+  "onnx_path": "outputs/vit_smartcampus.onnx",
+  "warmup": 10,
+  "repeat": 50,
+  "batch_sizes": [
+    1,
+    4,
+    8
+  ],
+  "rows": [
+    {
+      "runtime": "PyTorch",
+      "batch_size": 1,
+      "mean_latency_ms": 622.9842939998707,
+      "median_latency_ms": 674.7216000003391,
+      "p95_latency_ms": 702.211535000697,
+      "throughput_img_per_sec": 1.605176903545192,
+      "model_size_mb": 327.3699731826782
+    },
+    {
+      "runtime": "ONNXRuntime",
+      "batch_size": 1,
+      "mean_latency_ms": 419.67015399994125,
+      "median_latency_ms": 446.72689999970316,
+      "p95_latency_ms": 633.6135299997295,
+      "throughput_img_per_sec": 2.3828237258924543,
+      "model_size_mb": 0.10294151306152344
+    },
+    {
+      "runtime": "PyTorch",
+      "batch_size": 4,
+      "mean_latency_ms": 2064.891724000081,
+      "median_latency_ms": 2444.6700000007695,
+      "p95_latency_ms": 2579.6728349994737,
+      "throughput_img_per_sec": 1.9371475770415956,
+      "model_size_mb": 327.3699731826782
+    },
+    {
+      "runtime": "ONNXRuntime",
+      "batch_size": 4,
+      "mean_latency_ms": 976.3739179999538,
+      "median_latency_ms": 864.9434999997538,
+      "p95_latency_ms": 2271.5292149994634,
+      "throughput_img_per_sec": 4.096791123009278,
+      "model_size_mb": 0.10294151306152344
+    },
+    {
+      "runtime": "PyTorch",
+      "batch_size": 8,
+      "mean_latency_ms": 1912.5603359998786,
+      "median_latency_ms": 1932.4884500001644,
+      "p95_latency_ms": 1975.15188499965,
+      "throughput_img_per_sec": 4.182874573636723,
+      "model_size_mb": 327.3699731826782
+    },
+    {
+      "runtime": "ONNXRuntime",
+      "batch_size": 8,
+      "mean_latency_ms": 1683.0986180000764,
+      "median_latency_ms": 1679.6078999996098,
+      "p95_latency_ms": 1773.372859999381,
+      "throughput_img_per_sec": 4.753138000615741,
+      "model_size_mb": 0.10294151306152344
+    }
+  ]
+}
