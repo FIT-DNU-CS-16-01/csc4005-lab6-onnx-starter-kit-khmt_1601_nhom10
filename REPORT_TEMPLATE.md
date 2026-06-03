@@ -2,10 +2,9 @@
 
 ## 1. Thông tin
 
-- Họ tên:
-- Mã sinh viên:
-- Lớp:
-- Link GitHub repo:
+- Họ tên: Lê Thị Ngọc Bích, Nguyễn Mạnh Duy, Lê Trọng Thanh Tùng
+- Lớp: KHMT 16-01
+- Link GitHub repo: https://github.com/FIT-DNU-CS-16-01/csc4005-lab6-onnx-starter-kit-khmt_1601_nhom10
 - Link checkpoint hoặc mô tả checkpoint sử dụng: checkpoints/best_model.pt
 - Link file ONNX nếu không commit trực tiếp:
 
