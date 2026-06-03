@@ -49,7 +49,7 @@ python -m src.export_onnx   --checkpoint checkpoints/best_model.pt   --onnx_path
 | batch_size | 8 |
 | max_abs_diff | 1.0251998901367188e-05 |
 | mean_abs_diff | 299118039256e-06 |
-| pred_match_rate | 0 |
+| pred_match_rate | 1.0 |
 | atol | 0.0001 |
 | rtol | 0.001 |
 
