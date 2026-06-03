@@ -32,7 +32,7 @@
 | Dynamic batch | yes |
 | Input name | input |
 | Output name | logits |
-| Model size | 106 KB + 335MB |
+| Model size | 106 KB + 335MB(data) |
 
 Lệnh đã chạy:
 
